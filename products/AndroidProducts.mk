@@ -121,3 +121,6 @@ endif
 ifeq (pa_geespr,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_geespr.mk
 endif
+ifeq (pa_vigor,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_vigor.mk
+endif
